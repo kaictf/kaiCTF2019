@@ -15,21 +15,19 @@ def check_for_float(*args):
 @app.route('/diff/<float(signed=True):x>/<float(signed=True):y>')
 def ask_for_cost(x,y):
     print("Current parameters are: {}. Got: [{},{}]".format(min_params, x, y))
-    if True or check_for_float(x,y):
-        x, y   = float(x), float(y)
-        ret = evaluate_cost_func(x,y)
-        return flask.jsonify(ret)
-    abort(404)
+
+    ret = evaluate_cost_func(x,y)
+    return flask.jsonify(ret)
+
 
 
 @app.route('/try/<float(signed=True):x>/<float(signed=True):y>')
 def ask_for_flag(x,y):
     print("Current parameters are: {}. Got: [{},{}]".format(min_params, x,y))
-    if True or check_for_float(x,y):
-        x, y   = float(x), float(y)
-        ret = try_for_flag(x,y)
-        return flask.jsonify(ret)
-    abort(404)
+
+    ret = try_for_flag(x,y)
+    return flask.jsonify(ret)
+
 
 
 if __name__ == '__main__':

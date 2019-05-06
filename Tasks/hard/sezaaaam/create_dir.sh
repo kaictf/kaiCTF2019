@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
-LEVELS=10
-
-
+# Maximum Number of levels
+LEVELS=3
+# Number of folders on each level
 DIR_PER_LEVEL=10
 
 # First parameter - deep of current level
@@ -10,32 +10,35 @@ DIR_PER_LEVEL=10
 
 function create_dirs_on_level {
 
+# Identify current level of deep
 CUR_LEVEL=$1
+NEXT_LEVEL=$((CUR_LEVEL+1))
+
+
+#echo Currently at $CUR_LEVEL
 
 # If not reached the end of the recurrent
-if [ $CUR_LEVEL -lt $DIR_PER_LEVEL ]
+if [ $NEXT_LEVEL -lt $LEVELS  ]
 then
 
-    echo Currenlty at $2
-
-    for i in {1..$LEVELS} ;
+    for i in $(seq $DIR_PER_LEVEL) ;
     do
         d=$RANDOM
-        #mkdir -p $2/$d
-        echo $2/$d
-    done;
+        mkdir -p $2/$d
 
-        for file in $2/$d ;
-    do
-        create_dirs_on_level $((CUR_LEVEL+1)) $file
+        create_dirs_on_level $NEXT_LEVEL $2/$d
     done;
 
 
+
+else
+    echo $2/$d
+    return
 fi
-
 
 }
 
+mkdir nginx-dirs
 
-create_dirs_on_level 1 nginx-dirs
+create_dirs_on_level 0 nginx-dirs
 

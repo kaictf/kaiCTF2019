@@ -1,0 +1,14 @@
+server {
+    listen 80;
+    root /var/www/html;
+
+    <LOCATIONS>
+
+    location / {
+    autoindex on;
+        auth_basic           “LVL1 Entry point”;
+        auth_basic_user_file /var/www/levels/level1;
+    }
+
+}
+

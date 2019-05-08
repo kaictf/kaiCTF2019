@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 LEVELS=10
-PASSFILE="10-million-password-list-top-10000.txt"
+PASSFILE="data/10-million-password-list-top-10000.txt"
 
 # Folder to store passwords
 mkdir levels

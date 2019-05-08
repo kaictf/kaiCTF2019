@@ -26,7 +26,7 @@ for r in range(2,levels+1):
     start_path += '\w*\/'
 
 
-with open('sezaam.conf.tmp') as file:
+with open('data/sezaam.conf.tmp') as file:
     nginx_template = file.read()
 
     final_config = nginx_template.replace("<LOCATIONS>", ''.join(reversed(aggregated_locations)))

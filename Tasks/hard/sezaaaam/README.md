@@ -1,0 +1,39 @@
+# Sezaaam
+
+## Секция
+- PPC
+- Web
+
+## Разбалловка
+300
+
+## Флаг
+kaiCTF{Deeep_f0resT_Is_@nnoying}
+
+## Смысл задания
+Участник получает точку входа ввида 
+
+<code bash> curl http://192.168.93.226 -v</code>
+
+Данный URL введет на веб-сервер, на котором включена автоиндексация (при входе в папку отображается ее содержимое), но каждый из подуровней находится под HTTP Basic Authentication.
+
+Задача участника заключается в поиске той директории, в которой лежит флаг. Название директорий состоит из цифр, выбирается рандомно. Флаг располагается тоже в рандомной директории. Как только участник находит путь, по которому находится флаг, он может его запросить без аутентификации.
+ 
+ 
+ Как можно добраться до каждого из уровней:
+ 
+  <code bash>
+hydra -L seclists_10_million_password_list_top_10000.txt -e s -f 192.168.93.226  http-head
+ </code>
+
+## Описание задания
+Мы выяснили, что рейдеры шли и грабили корованы с чашками и хранили их в сундуке. Мы преследовали их до их убежища, но мы не можем открыть сундук. Нам нужны ментаты,rrrrrrrwawadarawradr
+
+## Description
+We found out that raiders went and robbed corovans with cups and stored them in a chest. We have chased them until their shelter, but we're unable to open the chest. We need mentats, arrwwawarawraraaar...
+
+## Подсказки
+- https://www.owasp.org/index.php/Basic_Authentication
+- PASS = USER
+- https://github.com/erforschr/bruteforce-http-auth
+- https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/Common-Credentials/10-million-password-list-top-10000.txt

@@ -27,10 +27,10 @@ hydra -L seclists_10_million_password_list_top_10000.txt -e s -f 192.168.93.226 
  </code>
 
 ## Описание задания
-Мы выяснили, что рейдеры шли и грабили корованы с чашками и хранили их в сундуке. Мы преследовали их до их убежища, но мы не можем открыть сундук. Нам нужны ментаты,rrrrrrrwawadarawradr
+Мы выяснили, что рейдеры шли и грабили корованы с крышками и хранили их в сундуке. Мы преследовали их до их убежища, но мы не можем открыть сундук. Нам нужны ментаты,rrrrrrrwawadarawradr
 
 ## Description
-We found out that raiders went and robbed corovans with cups and stored them in a chest. We have chased them until their shelter, but we're unable to open the chest. We need mentats, arrwwawarawraraaar...
+We found out that raiders went and robbed corovans with caps and stored them in a chest. We have chased them until their shelter, but we're unable to open the chest. We need mentats, arrwwawarawraraaar...
 
 ## Подсказки
 - https://www.owasp.org/index.php/Basic_Authentication

@@ -17,7 +17,7 @@ kaiCTF2019{UsE_SECURED_Sessi0ns}
 <br>secureFl@g(id INT PRIMARY KEY, fl_ VARCHAR(100)); </br>
 
 
-Шаблон используемых SQL команд:
+Шаблон используемых SQL команд, участник может получить исходных флаг по поиску параметров, вызываемых с удаленной процедурой:
 
 <code sql>
 INSERT TOP (200) INTO secureFl@g(id, fl_) VALUES (@id, @fl_)

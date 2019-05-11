@@ -11,6 +11,9 @@
 - MINIMIZEME - 250
 - sezaaam - 300
 
+## Easy
+- Last-signal - 100
+- CrazyMatreshka - 100
 
 ## Категории заданий
 - PPC - 2

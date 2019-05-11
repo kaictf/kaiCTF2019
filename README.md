@@ -11,7 +11,7 @@
 - MINIMIZEME - 250
 - sezaaam - 300
 
-## Easy
+### Easy
 - Last-signal - 100
 - CrazyMatreshka - 100
 

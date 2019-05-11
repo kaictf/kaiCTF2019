@@ -8,7 +8,7 @@ Stego
 
 ## Смысл задания
 Участнику выдается GIF файл -<br>
-<img src="https://psv4.userapi.com/c848436/u232954835/docs/d13/8498441fff56/terminal.gif?extra=8Ir-zTQZfhi55KFiA04hae5p4oEM0cRYP3vmK4wOu2Q2dd7muJTqYKQDDsDU5y12iSzKhCFFruD13kVHrQymUd_rhyfxRF_az6YPrDdtf8rq6o7d-flfDC360EdX5Pk67TH8FlLXWuF3iCgJ1oODod_1"><br>
+<img src="https://psv4.userapi.com/c848436/u232954835/docs/d13/2bbe1f786951/terminal.gif?extra=-55Xd2FGgmVrDlufmr9k-vAhEHCqdzfddRbyc6u9qqFtlPPpy6lt2mdPtDr7mlWlt_VdJ5UbF4YpfnHjlsOSE1aVDE4jCtC9KVQATrTzVmr3gN1zmm1E-xMPdFIcGtda3IgTabgsOXtzvY2VXlOJl_ur"><br>
 
 ## Путь решения
 Если открыть файл в HEX-редакторе, то в конце, после 00 байтиков виден явный base64.<br>

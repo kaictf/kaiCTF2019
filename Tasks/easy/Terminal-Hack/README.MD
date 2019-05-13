@@ -13,3 +13,4 @@ Misc
 Данный таск построен на curses, [оринигал](https://github.com/javabird25/fallout-terminal).<br>
 Пароли располагаются в файле passwords.txt.<br>
 Изменить флаг можно в файле fallout_selection.py
+Запуск ```python3 fallout.py```

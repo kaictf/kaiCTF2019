@@ -14,3 +14,5 @@ Misc
 Пароли располагаются в файле passwords.txt.<br>
 Изменить флаг можно в файле fallout_selection.py
 Запуск ```python3 fallout.py```
+
+Рабочий пример: ```ssh task@kaictftraining.ddns.net``` пароль qweqwe

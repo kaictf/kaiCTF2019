@@ -1,5 +1,7 @@
 import curses
+
 from fallout_functions import slowWrite, centeredWrite, NEWLINE
+from flag import FLAG
 
 ####################### text strings ########################
 
@@ -18,8 +20,8 @@ OTHER_HEADERS = (
 )
 
 SELECTIONS = (
-    'Получить флаг',
-    'Стукнуть терминал'
+    'Get flag',
+    'Exit',
 )
 
 ###################### Functions ############################
@@ -67,9 +69,11 @@ def makeSelection(scr):
         scr.erase()
         curses.curs_set(0)
         scr.move(height // 2 - 3, 0)
-        centeredWrite(scr, 'kaiCTF{someflag}')
+        centeredWrite(scr, FLAG )
         scr.refresh()
         curses.napms(10000)
+
+        exit(0)
 
     return selection
 

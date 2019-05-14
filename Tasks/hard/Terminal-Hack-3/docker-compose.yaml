@@ -1,0 +1,14 @@
+version: "2"
+services:
+  fallout-term-hard:
+    build: ./
+    environment:
+      - FLAG=kaictf
+    ports:
+      - "2224:22"
+    volumes:
+      - ./app:/app
+      - ./sshd_config:/etc/ssh/sshd_config
+      - ./passwords/hard.txt:/app/passwords.txt
+      - ./flag.py:/app/flag.py
+    command: ["/usr/sbin/sshd", "-D"]

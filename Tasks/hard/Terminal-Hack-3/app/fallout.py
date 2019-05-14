@@ -1,0 +1,18 @@
+#! /usr/bin/env python
+import fallout_login as login
+import fallout_boot as boot
+import fallout_locked as locked
+import fallout_hack as hack
+import fallout_selection as select
+import sys
+
+hard = len(sys.argv) == 2 and sys.argv[1].lower() == 'hard'
+
+if boot.beginBoot(hard):
+    pwd = hack.beginLogin()
+    if pwd != None:
+        login.beginLogin(hard, 'ADMIN', pwd)
+        print(select.beginSelection())
+    else:
+        locked.beginLocked()
+        print('Login failed')

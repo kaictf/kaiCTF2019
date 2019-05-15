@@ -14,6 +14,8 @@ chmod +x create_level.sh
 # Create random directories and put flag into one of the largest paths
 ./create_dir.sh | tee flag_path
 
+# Create nginx configuration
+python3 prepare_nginx.py
 
 # Start container
 docker-compose restart

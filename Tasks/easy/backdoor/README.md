@@ -9,6 +9,7 @@ very easy
 ### Task description
 Инсайдер внедрил бэкдор, воспользуйся им.
 http://IP:PORT
+[app.py]
 
 @baydarich
 
@@ -20,7 +21,7 @@ change your User-Agent
 
 ### Info
 
-Provide only web service link to the participants, no files required.
+Provide web service link to the participants and `app.py` file.
 Go to `ready` folder and run:
 ```
 docker build --tag backdoor-task .

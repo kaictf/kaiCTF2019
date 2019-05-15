@@ -1,6 +1,6 @@
 version: "2"
 services:
-  fallout-term-hard:
+  fallout-term-medium:
     build: ./
     environment:
       - FLAG=kaictf

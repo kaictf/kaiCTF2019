@@ -8,6 +8,8 @@ medium/hard
 
 ### Task description
 Ваше  мнение очень важно для нас.
+http://IP:PORT
+
 @baydarich
 
 ### Flag
@@ -18,6 +20,7 @@ blind xss
 
 ### Info
 
+Provide only web service link to the participants, no files required.
 Go to `ready` folder and run:
 ```
 docker build --tag blind-xss-task .

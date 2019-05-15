@@ -3,6 +3,6 @@ services:
   minimizeme:
     build: ./
     ports:
-      - "8080:80"
+      - "10020:80"
   volumes:
      - ./app:/app

@@ -24,7 +24,7 @@ WEB
 
 
 
-## Flag
+## Флаг
 
 kaiCTF{b@se64_1s_C0ol}
 

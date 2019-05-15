@@ -5,7 +5,7 @@ import subprocess
 
 
 app = Flask(__name__)
-PORT = 31337
+PORT = 80
 HOST = '0.0.0.0'
 
 

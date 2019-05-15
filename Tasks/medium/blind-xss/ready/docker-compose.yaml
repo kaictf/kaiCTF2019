@@ -1,0 +1,6 @@
+version: "2"
+services:
+  blind-xss:
+    build: ./
+    ports:
+      - "10050:80"

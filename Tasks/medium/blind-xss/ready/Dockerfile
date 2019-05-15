@@ -19,3 +19,5 @@ COPY app.py app.py
 
 ENTRYPOINT [ "python3" ]
 CMD [ "app.py" ]
+
+EXPOSE 80

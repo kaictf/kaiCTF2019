@@ -1,0 +1,6 @@
+version: "2"
+services:
+  backdoor:
+    build: ./
+    ports:
+      - "10010:80"

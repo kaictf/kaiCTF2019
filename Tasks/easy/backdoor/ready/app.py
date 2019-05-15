@@ -3,7 +3,7 @@ from flask import request
 from flask import send_file
 
 app = Flask(__name__)
-PORT = 31338
+PORT = 80
 HOST = '0.0.0.0'
 
 

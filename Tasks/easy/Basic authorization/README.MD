@@ -26,7 +26,7 @@ WEB
 
 ## Флаг
 
-kaiCTF{b@se64_1s_C0ol}
+kaiCTF{44a75eed4dfa750953b610f2a17c617d}
 
 
 
@@ -42,7 +42,7 @@ GET /securefiles/ HTTP/1.1
 
 Host: www.kaiCTF.com
 
-Authorization: Basic ZmxhZzprYWlDVEZ7YkBzZTY0XzFzX0Mwb2x9
+Authorization: Basic a2FpQ1RGezQ0YTc1ZWVkNGRmYTc1MDk1M2I2MTBmMmExN2M2MTdkfQo
 
 
 

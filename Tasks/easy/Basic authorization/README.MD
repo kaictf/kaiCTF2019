@@ -35,7 +35,7 @@ kaiCTF{44a75eed4dfa750953b610f2a17c617d}
 ```
 GET /securefiles/ HTTP/1.1
 Host: www.kai.ctf
-Authorization: Basic a2FpQ1RGezQ0YTc1ZWVkNGRmYTc1MDk1M2I2MTBmMmExN2M2MTdkfQo
+Authorization: Basic ZmxhZzprYWlDVEZ7NDRhNzVlZWQ0ZGZhNzUwOTUzYjYxMGYyYTE3YzYxN2R9Cg
 ```
 
 

@@ -6,7 +6,7 @@ server {
 
     location / {
     autoindex on;
-        auth_basic           “LVL1 Entry point”;
+        auth_basic           'LVL1 Entry point';
         auth_basic_user_file /var/www/levels/level1;
     }
 

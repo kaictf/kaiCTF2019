@@ -32,5 +32,5 @@ def ask_for_flag(x,y):
 
 if __name__ == '__main__':
 
-    app.run("0.0.0.0", 80, debug=False,threaded=True)
+    app.run("0.0.0.0", 80)
 

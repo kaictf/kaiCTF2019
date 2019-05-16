@@ -4,5 +4,3 @@ services:
     build: ./
     ports:
       - "10020:80"
-  volumes:
-     - ./app:/app

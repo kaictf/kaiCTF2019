@@ -4,8 +4,8 @@ from scipy.optimize import least_squares,minimize,fmin_cg
 
 
 
-diff_link = "http://192.168.93.226:8080/diff/{0:.10f}/{0:.10f}"
-flag_link = "http://192.168.93.226:8080/try/{0:.10f}/{0:.10f}"
+diff_link = "http://192.168.93.226:10020/diff/{0:.10f}/{0:.10f}"
+flag_link = "http://192.168.93.226:10020/try/{0:.10f}/{0:.10f}"
 
 def get_cost_evaluation(x_,y_):
 

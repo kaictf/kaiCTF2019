@@ -7,3 +7,6 @@ RUN pip install -r requirements.txt
 
 # Run app.py when the container launches
 COPY ./app /app
+
+
+EXPOSE 80

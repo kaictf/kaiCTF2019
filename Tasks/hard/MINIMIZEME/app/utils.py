@@ -1,8 +1,8 @@
 from model import *
 
-flag = "kaiCTF2019{m@chinE_Le@RN1nG_Is_c00l}"
+flag = "kaiCTF{cc20bc619e6241f5c89ab014a379234a}"
 wrong = "Too far. Try again"
-threshhold = 0.05
+threshhold = 0.20
 
 def evaluate_cost_func(x_coord, y_coord):
 

@@ -32,6 +32,6 @@ with open('data/sezaam.conf.tmp') as file:
     final_config = nginx_template.replace("<LOCATIONS>", ''.join(reversed(aggregated_locations)))
 
 
-with open('sezaam.conf','w') as file:
+with open('sezaam.conf','w+') as file:
     file.write(final_config)
 

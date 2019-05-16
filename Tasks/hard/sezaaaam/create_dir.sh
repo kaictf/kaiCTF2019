@@ -5,7 +5,7 @@ LEVELS=10
 # Number of folders on each level
 DIR_PER_LEVEL=10
 
-FLAG="kaiCTF{Deeep_f0resT_Is_@nnoying}"
+FLAG="kaiCTF{6a4b909aee1a838bda249e1a3434e60e}"
 
 
 

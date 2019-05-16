@@ -8,7 +8,7 @@
 300
 
 ## Флаг
-kaiCTF{Deeep_f0resT_Is_@nnoying}
+kaiCTF{6a4b909aee1a838bda249e1a3434e60e}
 
 ## Смысл задания
 Участник получает точку входа ввида 

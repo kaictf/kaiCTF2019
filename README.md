@@ -15,6 +15,8 @@
 - blind-xss - 150
 - login-traff - 100
 - Terminal-Hack-2 - 100
+- metaTONNA - 100
+- LetterRap - 100
 
 
 
@@ -25,6 +27,7 @@
 - crazymatreshka - 100
 - SecretPerson - 100
 - Terminal-Hack - 50
+- Basic authorization - 10
 
 
 ## По портам
@@ -43,6 +46,8 @@
 - blind-xss - 10050
 - login-traff - N/A
 - Terminal-Hack-2 - 2223
+- metaTONNA - N/A
+- LetterRap - N.A
 
 
 
@@ -53,3 +58,4 @@
 - crazymatreshka - N/A
 - SecretPerson - N/A
 - Terminal-Hack - 2222
+- Basic authorization - N/A

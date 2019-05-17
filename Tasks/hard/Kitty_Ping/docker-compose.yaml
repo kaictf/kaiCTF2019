@@ -1,0 +1,6 @@
+version: "2"
+services:
+  kitty-ping:
+    build: ./
+    ports:
+      - "10060:80"

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OS Pinger!!!</title>
+
+
+    <script type="text/javascript" src="static/js/vue.min.js"></script>
+
+    <link rel="stylesheet" href="static/css/normalize.css">
+    <link rel="stylesheet" href="static/css/skeleton.css">
+
+
+</head>
+<body>
+
+
+<div class="container">
+    <div id="app">
+        <div class="row">
+            <h2> Kittie Pinger</h2>
+        </div>
+        <div class="row">
+            <h3>Here you go!</h3>
+            <p>Put your IP address to check whether kitty is online to or not</p>
+        </div>
+        <div class="row">
+                <input name="address" v-bind:value="address" type="text">
+            <button value="Fetch" v-on:click="fetch_data">Check</button>
+        </div>
+        <div class="row">
+            <p>Result:</p>
+            <label>{{result}}</label>
+        </div>
+    </div>
+</div>
+<script src="static/js/app.js"></script>
+
+</body>
+</html>

@@ -10,26 +10,26 @@
 
 
 ### Medium
-- 50shadesofgreen 120
-- Broken-Terminal 100
-- LetterRep 110
-- blind-xss 200
-- login-traff 200
-- metaTONNA 110
-- safe RSA 120
-- sql-leakage 200+
+- 50shadesofgreen - 120
+- Broken-Terminal - 100
+- LetterRep - 110
+- blind-xss - 200
+- login-traff - 200
+- metaTONNA - 110
+- safe RSA - 120
+- sql-leakage - 200+
 
 
 
 ### Easy
-- Basic authorization 10
-- EasyStego 50
-- Last-signal 50
-- Lost-Pass 20
-- SecretPerson 50
-- backdoor 50
-- crazymatreshka 70
-- traf-watch 30
+- Basic authorization - 10
+- EasyStego - 50
+- Last-signal - 50
+- Lost-Pass - 20
+- SecretPerson - 50
+- backdoor - 50
+- crazymatreshka - 70
+- traf-watch - 30
 
 
 ## По портам

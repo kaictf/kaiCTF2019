@@ -10,13 +10,14 @@
 
 
 ### Medium
-- 50 Shades of green - 120
-- Broken-Terminal - 100
-- blind-xss - 150
-- login-traff - 100
-- Terminal-Hack-2 - 100
-- metaTONNA - 100
-- LetterRap - 100
+- 50shadesofgreen 120
+- Broken-Terminal 100
+- LetterRep 110
+- blind-xss 200
+- login-traff 200
+- metaTONNA 110
+- safe RSA 120
+- sql-leakage 200+
 
 
 

@@ -5,7 +5,7 @@
 ### Hard
 - MINIMIZEME - 250
 - sezaaam - 300
-- Terminal-Hack-3 - 200
+- Kitty_Ping - 150
 
 
 ### Medium
@@ -36,7 +36,7 @@
 ### Hard
 - MINIMIZEME - 10020
 - sezaaam - 10030
-- Terminal-Hack-3 - 2224
+- Kitty_Ping - 10060
 
 
 ### Medium

@@ -17,7 +17,6 @@
 - login-traff - 200
 - metaTONNA - 110
 - safe RSA - 120
-- sql-leakage - 200+
 
 
 

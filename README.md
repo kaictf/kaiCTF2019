@@ -6,12 +6,12 @@
 - MINIMIZEME - 250
 - sezaaam - 300
 - Kitty_Ping - 150
+- sql-leakage - 250
 
 
 ### Medium
-- 50 Shades of green - 150
+- 50 Shades of green - 120
 - Broken-Terminal - 100
-- sql-leakage - 150
 - blind-xss - 150
 - login-traff - 100
 - Terminal-Hack-2 - 100
@@ -21,13 +21,14 @@
 
 
 ### Easy
-- Last-signal - 100
-- CrazyMatreshka - 100
-- backdoor - 50
-- crazymatreshka - 100
-- SecretPerson - 100
-- Terminal-Hack - 50
-- Basic authorization - 10
+- Basic authorization 10
+- EasyStego 50
+- Last-signal 50
+- Lost-Pass 20
+- SecretPerson 50
+- backdoor 50
+- crazymatreshka 70
+- traf-watch 30
 
 
 ## По портам

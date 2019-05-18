@@ -3,10 +3,11 @@
 ## Список текущих заданий
 
 ### Hard
-- MINIMIZEME - 250
-- sezaaam - 300
+- MINIMIZEME - 200
+- sezaaam - 200
 - Kitty_Ping - 150
 - sql-leakage - 250
+- Terminal-Hack-3
 
 
 ### Medium
@@ -60,3 +61,4 @@
 - SecretPerson - N/A
 - Terminal-Hack - 2222
 - Basic authorization - N/A
+- history - 10070

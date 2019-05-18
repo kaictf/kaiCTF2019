@@ -8,7 +8,7 @@ WORKDIR /app
 
 COPY . /app
 
-EXPOSE 31339
+EXPOSE 80
 
 ENTRYPOINT [ "python3" ]
 CMD [ "app.py" ]

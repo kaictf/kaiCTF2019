@@ -1,5 +1,20 @@
 # KaiCTF2019
 
+## Запуск всех сервисов
+
+<code bash>
+for r in $(find . -name "docker-compose.yaml"); do docker-compose -f $r build --no-cache; done
+</code>
+
+
+<code bash>
+for r in $(find . -name "docker-compose.yaml"); do docker-compose -f $r stop; done
+</code>
+
+
+<code bash>
+for r in $(find . -name "docker-compose.yaml"); do docker-compose -f $r start; done</code>
+
 ## Список текущих заданий
 
 ### Hard
@@ -22,14 +37,14 @@
 
 
 ### Easy
-- Basic authorization - 10
-- EasyStego - 50
-- Last-signal - 50
-- Lost-Pass - 20
-- SecretPerson - 50
-- backdoor - 50
-- crazymatreshka - 70
-- traf-watch - 30
+- Basic authorization - 40
+- EasyStego - 80
+- Last-signal - 80
+- Lost-Pass - 50
+- SecretPerson - 80
+- backdoor - 80
+- crazymatreshka - 100
+- traf-watch - 80
 
 
 ## По портам
@@ -39,6 +54,7 @@
 - MINIMIZEME - 10020
 - sezaaam - 10030
 - Kitty_Ping - 10060
+- Terminal-Hack-3 - 2224
 
 
 ### Medium
@@ -47,7 +63,6 @@
 - sql-leakage -  N/A
 - blind-xss - 10050
 - login-traff - N/A
-- Terminal-Hack-2 - 2223
 - metaTONNA - N/A
 - LetterRap - N.A
 
@@ -59,6 +74,5 @@
 - backdoor - 10010
 - crazymatreshka - N/A
 - SecretPerson - N/A
-- Terminal-Hack - 2222
 - Basic authorization - N/A
 - history - 10070

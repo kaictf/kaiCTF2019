@@ -45,6 +45,7 @@ for r in $(find . -name "docker-compose.yaml"); do docker-compose -f $r start; d
 - backdoor - 80
 - crazymatreshka - 100
 - traf-watch - 80
+- funny wasteland - 100
 
 
 ## По портам

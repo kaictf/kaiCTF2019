@@ -13,7 +13,7 @@ medium/hard
 @baydarich
 
 ### Flag
-kaiCTF{c063c864e3fa3d802271ed5198f88118}
+kaiCTF{8226ceffa74f527226c39f26ed6b0b88}
 
 ### Hint
 1. js + password
